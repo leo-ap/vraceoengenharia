@@ -1,0 +1,45 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\le056548\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.0
+2 info using node@v21.0.0
+3 silly config load:file:C:\Users\le056548\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\le056548\.npmrc
+5 silly config load:file:C:\Users\le056548\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm i yarn
+7 verbose argv "i" "yarn" "--global"
+8 verbose logfile logs-max:10 dir:C:\leo\dev\vracreoengenharia\.npm\_logs\2024-11-17T13_59_11_979Z-
+9 verbose logfile C:\leo\dev\vracreoengenharia\.npm\_logs\2024-11-17T13_59_11_979Z-debug-0.log
+10 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest yarn@*
+14 silly packumentCache full:https://registry.npmjs.org/yarn cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/yarn 25ms (cache hit)
+16 silly packumentCache full:https://registry.npmjs.org/yarn set size:432649 disposed:false
+17 silly placeDep ROOT yarn@1.22.22 OK for:  want: *
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\node_modules\\yarn',
+18 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\yarn',
+18 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\yarn.cmd',
+18 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\yarn.ps1',
+18 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\yarnpkg',
+18 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\yarnpkg.cmd',
+18 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\yarnpkg.ps1'
+18 silly reify ]
+19 silly reify moves {
+19 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\node_modules\\yarn': 'C:\\Users\\le056548\\AppData\\Roaming\\npm\\node_modules\\.yarn-lYjFQ9Ym',
+19 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\yarn': 'C:\\Users\\le056548\\AppData\\Roaming\\npm\\.yarn-Uo2CbAr9',
+19 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\yarn.cmd': 'C:\\Users\\le056548\\AppData\\Roaming\\npm\\.yarn.cmd-ONJztfVx',
+19 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\yarn.ps1': 'C:\\Users\\le056548\\AppData\\Roaming\\npm\\.yarn.ps1-LTFEJO4X',
+19 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\yarnpkg': 'C:\\Users\\le056548\\AppData\\Roaming\\npm\\.yarnpkg-lqBRtaGb',
+19 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\yarnpkg.cmd': 'C:\\Users\\le056548\\AppData\\Roaming\\npm\\.yarnpkg.cmd-0XahL4EK',
+19 silly reify   'C:\\Users\\le056548\\AppData\\Roaming\\npm\\yarnpkg.ps1': 'C:\\Users\\le056548\\AppData\\Roaming\\npm\\.yarnpkg.ps1-TPWg80oq'
+19 silly reify }
+20 info run yarn@1.22.22 preinstall node_modules/yarn :; (node ./preinstall.js > /dev/null 2>&1 || true)
+21 info run yarn@1.22.22 preinstall { code: 0, signal: null }
+22 silly CHANGE node_modules/yarn
+23 verbose cwd C:\leo\dev\vracreoengenharia
+24 verbose os Windows_NT 10.0.22631
+25 verbose node v21.0.0
+26 verbose npm  v10.8.0
+27 verbose exit 0
+28 info ok
