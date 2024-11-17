@@ -172,7 +172,7 @@ const config = {
         indexPages: false,
 
         // language of your documentation, see next section
-        language: "en",
+        language: "pt",
 
         // setting this to "none" will prevent the default CSS to be included. The default CSS
         // comes from autocomplete-theme-classic, which you can read more about here:
