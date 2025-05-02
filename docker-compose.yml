@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  wiki:
+    build: .
+    container_name: wiki
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.wiki.rule=Host(`wiki.vraceoengenharia.com`)"
+      - "traefik.http.routers.wiki.entrypoints=web,websecure"
+      - "traefik.http.routers.wiki.tls.certresolver=myresolver"
+      - "traefik.http.services.wiki.loadbalancer.server.port=80"
+    restart: unless-stopped
